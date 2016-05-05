@@ -1,0 +1,69 @@
+<div class="bossbox">
+	<div class="yo-header yo-header-a">
+	    <h2 class="title">招牌篇</h2>
+	    <span class="regret yo-ico" action-type="tap.back">&#xe604;</span>
+	    <span class="affirm yo-ico span1" action-type="tap.home">&#xe605;</span>
+	</div>
+	<section spa-widget="scroll">
+		<div class="smallbox">
+			<dl>
+				<dt><img src="/darkfood/images/6.gif"/></dt>
+				<dd>
+					<span>茶油鸭</span>
+					<span>￥88</span>
+				</dd>
+			</dl>
+			<dl>
+				<dt><img src="/darkfood/images/7.gif"/></dt>
+				<dd>
+					<span>石锅皖鱼</span>
+					<span>￥88</span>
+				</dd>
+			</dl>
+			<dl>
+				<dt><img src="/darkfood/images/8.gif"/></dt>
+				<dd>
+					<span>茶油鸭</span>
+					<span>￥88</span>
+				</dd>
+			</dl>
+			<dl>
+				<dt><img src="/darkfood/images/6.gif"/></dt>
+				<dd>
+					<span>茶油鸭</span>
+					<span>￥88</span>
+				</dd>
+			</dl>
+			<dl>
+				<dt><img src="/darkfood/images/7.gif"/></dt>
+				<dd>
+					<span>茶油鸭</span>
+					<span>￥88</span>
+				</dd>
+			</dl>
+			<dl>
+				<dt><img src="/darkfood/images/8.gif"/></dt>
+				<dd>
+					<span>茶油鸭</span>
+					<span>￥88</span>
+				</dd>
+			</dl>
+			
+			<dl>
+				<dt><img src="/darkfood/images/7.gif"/></dt>
+				<dd>
+					<span>茶油鸭</span>
+					<span>￥88</span>
+				</dd>
+			</dl>
+			<dl>
+				<dt><img src="/darkfood/images/8.gif"/></dt>
+				<dd>
+					<span>茶油鸭</span>
+					<span>￥88</span>
+				</dd>
+			</dl>
+		</div>
+		
+	</section>
+</div>

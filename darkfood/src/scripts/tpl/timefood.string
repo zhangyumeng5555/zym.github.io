@@ -1,0 +1,68 @@
+<div class="timefoodbox">
+	<section id="timescroll">
+		<div class="insidebox">
+			<div class="innerbox">
+				<div><h2>茶油鸭餐厅</h2><span>2016-03-01</span></div>
+				<p><img src="/darkfood/images/17.gif"</p>
+				<p>
+					<span>享受私房小炒的可口；</span>
+					<span>享受色、香、味的刺激；</span>
+					<span>舌尖上的美食，味蕾上的共鸣；</span>
+					<span>尽在现食不一样。</span>
+					<span>美食预定中：</span>
+					<span>好而不贵，真的实惠，满足你的味蕾。</span>
+					<span>有味才构尽兴。</span>
+					
+				</p>
+				<p>
+					<span>关心您吃的饱不饱，</span>
+					<span>在乎您吃的好不好，</span>
+					<span>下班，到现食不一样来吃晚饭吧......</span>
+					<span>现食不一样美食悄然预定中</span>
+				</p>
+				<p>
+					<span>工作累了想歇会</span>
+					<span>坚持久了想吐吐槽</span>
+					<span>下班，到现食不一样来坐会儿吧......</span>
+					<span>老板也是话唠子</span>
+				</p>
+				<p>
+					<span>每日奔波压力不减</span>
+					<span>心疼自己却总是没时间</span>
+					<span>下班，到现食不一样吃吃别的吧......</span>
+					<span>天天都有新玩意</span>
+				</p>
+			</div>
+			<div id="foot2" action-type="tap.top">
+				返回顶部
+			</div>
+		</div>
+		
+		
+	</section>
+	<div class="fd-foot">
+		<ul>
+			<li action-type="tap.back3">
+				<i class="yo-ico">&#xe6e3;</i>
+				<b>返回</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe601;</i>
+				<b>电话</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe625;</i>
+				<b>导航</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe62a;</i>
+				<b>首页</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe60e;</i>
+				<b>分享</b>
+			</li>
+		</ul>
+	</div>
+	
+</div>

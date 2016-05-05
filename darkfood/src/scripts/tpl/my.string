@@ -1,0 +1,21 @@
+<div class="mybox">
+	<div class="yo-header yo-header-a">
+	    <h2 class="title">会员中心</h2>
+	    <span class="regret yo-ico" action-type="tap.back">&#xe604;</span>
+	    <span class="affirm yo-ico span1" action-type="tap.home">&#xe605;</span>
+	</div>
+	<div class="my-pic">
+			<img src="/darkfood/images/11.gif" />
+    </div>
+	<section>
+		<div class="msg">
+			<form>
+				<label class="yo-ico lab1">&#xe610;</label><input type="text" class="txt" placeholder="请输入手机号" />
+				<label class="yo-ico lab2">&#xe6a1;</label><input type="password" class="psd" placeholder="密码（6-20位字符）" />
+				<div><p><input type="checkbox" checked="checked" class="chk" />记住密码</p><p>忘记密码</p></div>
+			    <input type="button" value="登录" class="btn1" action-type="tap.sure"/>
+			    <input type="button" value="免费注册" class="btn2" action-type="tap.register"/>
+			</form>
+		</div>
+	</section>
+</div>

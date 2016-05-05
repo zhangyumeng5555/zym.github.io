@@ -1,0 +1,29 @@
+{ 
+  "ver":"1.0",
+  "ret":true,
+  "errcode":0,
+  "errmsg":"",
+  "data":[{
+      "img": "/darkfood/images/13.gif",
+      "p1": "红牛",
+      "p2": "￥8.00",
+      "p3":"已售：0"
+  },{
+      "img": "/darkfood/images/14.gif",
+      "p1": "红牛",
+      "p2": "￥8.00",
+      "p3":"已售：0"
+  },{
+      "img": "/darkfood/images/15.gif",
+      "p1": "红牛",
+      "p2": "￥8.00",
+      "p3":"已售：0"
+  },{
+      "img": "/darkfood/images/16.gif",
+      "p1": "红牛",
+      "p2": "￥8.00",
+      "p3":"已售：0"
+  }]
+  
+
+}

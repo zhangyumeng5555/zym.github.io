@@ -1,0 +1,89 @@
+<div class="vipbox">
+	<div class="yo-header yo-header-a">
+	    <h2 class="title">会员中心</h2>
+	    <span class="regret yo-ico" action-type="tap.back">&#xe604;</span>
+	    <span class="affirm yo-ico span1" action-type="tap.home">&#xe605;</span>
+	</div>
+	<section spa-widget="scroll">
+		<div class="small-vip">
+			<div class="vippic">
+				<img src="/darkfood/images/10.gif" />
+			</div>
+			<div class="pic-bottom">
+				<ul>
+					<li>
+						<i>0.00</i>
+						<b>账户余额</b>
+					</li>
+					<li>
+						<i>0</i>
+						<b>卡券</b>
+					</li>
+				</ul>
+			</div>
+			<div class="menu-vip">
+				<ul>
+					<li>
+						<i class="yo-ico">&#xe6ef;</i>
+						<b>订单</b>
+					</li>
+					<li>
+						<i class="yo-ico">&#xe61c;</i>
+						<b>活动</b>
+					</li>
+					<li>
+						<i class="yo-ico">&#xe666;</i>
+						<b>分销</b>
+					</li>
+				</ul>
+			</div>
+			<div class="look-vip">
+				<ul>
+					<li><i class="yo-ico">&#xe611;</i></li>
+					<li><i>我的购物车</i></li>
+					<li><i class="yo-ico">&#xe604;</i></li>
+				</ul>
+				<ul>
+					<li><i class="yo-ico">&#xe650;</i></li>
+					<li><i>收藏记录</i></li>
+					<li><i class="yo-ico">&#xe604;</i></li>
+				</ul>
+				<ul>
+					<li><i class="yo-ico">&#xe648;</i></li>
+					<li><i>浏览记录</i></li>
+					<li><i class="yo-ico">&#xe604;</i></li>
+				</ul>
+				<ul>
+					<li><i class="yo-ico">&#xe72f;</i></li>
+					<li><i>收货地址</i></li>
+					<li><i class="yo-ico">&#xe604;</i></li>
+				</ul>
+				<ul>
+					<li><i class="yo-ico">&#xe610;</i></li>
+					<li><i>用户信息</i></li>
+					<li><i class="yo-ico">&#xe604;</i></li>
+				</ul>
+				<ul>
+					<li><i class="yo-ico">&#xe6a1;</i></li>
+					<li><i>系统设置</i></li>
+					<li><i class="yo-ico">&#xe604;</i></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

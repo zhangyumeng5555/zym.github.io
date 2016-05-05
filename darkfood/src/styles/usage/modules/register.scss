@@ -1,0 +1,149 @@
+.rgbox{
+    @include flexbox(flex);
+    width:100%;
+    height:100%;
+    @include flex-direction(column);
+    .user{border:none;}
+    @include yo-header(
+         $name:a,
+         $bgcolor:#fa635c,
+         $color:#fff,
+         $height:.44rem
+    );
+    .rgdiv{
+        @include flex(1);
+        @include flexbox(flex);
+        @include flex-direction(column);
+        background:#fff;
+        width:100%;
+        .rgb{
+            width:100%;
+            height:1.18rem;
+            img{
+                width:100%;
+            }
+        }
+        .userbox{
+            height:1.35rem;
+            width:100%;
+            @include flexbox(flex);
+            @include flex-direction(column);
+            @include box-sizing(border-box);            
+            padding:0 .43rem 0 .19rem;
+            position:relative;
+            .lab1{position:absolute;left:.3rem;top:.06rem;font-size: .2rem;}
+            .lab2{position:absolute;left:.28rem;top:.40rem;font-size: .23rem;}
+            .lab3{position:absolute;left:.28rem;top:.85rem;font-size: .23rem;}
+            .psd,.txt{
+                width:100%;
+                height:.40rem;
+                border:none;
+                border-bottom:1px solid #ccc;
+                @include flexbox(flex); 
+                @include box-sizing(border-box);
+                padding-left:.39rem;
+                font-size:.12rem;
+                margin-bottom:.1rem;
+            }
+        }
+        .userbox1{
+            width:100%;
+            height:1.4rem;
+            @include flexbox(flex);
+            .Luser{
+                @include flex(5);
+                @include flexbox(flex);
+                @include flex-direction(column);
+                @include box-sizing(border-box);            
+                padding:0 .2rem 0 .19rem;
+                position:relative;
+                .lab1{position:absolute;left:.3rem;top:.06rem;font-size: .2rem;}
+                .lab2{position:absolute;left:.28rem;top:.50rem;font-size: .23rem;}
+                .psd,.txt{
+                    width:100%;
+                    height:.40rem;
+                    border:none;
+                    border-bottom:1px solid #ccc;
+                    @include flexbox(flex); 
+                    @include box-sizing(border-box);
+                    padding-left:.39rem;
+                    font-size:.12rem;
+                    margin-bottom:.1rem;
+                }
+            }
+            .Ruser{
+                @include flex(3);
+                @include flexbox(flex);
+                @include flex-direction(column);
+                @include box-sizing(border-box); 
+                .userTxt{
+                    width:.90rem;
+                    height:.37rem;
+                    border:none;
+                    margin-bottom:.2rem;
+                    text-align: center;
+                    background:#E7E1CD;
+                    border-radius:.04rem;
+                    
+                }
+               
+                .userBtn{
+                    border:none;
+                    background:#30c32c;
+                    color:#fff;
+                    width:.95rem;
+                    height:.37rem;
+                    border-radius:.04rem;
+                    margin-bottom:.1rem;
+                }
+                
+            }
+        }
+        .userbox2{
+            width:100%;
+            height:.4rem;
+            @include flexbox(flex); 
+            @include box-sizing(border-box);
+            padding:0 0 .1rem .19rem;
+            label{
+                color:#e9e9e9;
+                font-size:.14rem;
+                margin-top:-.04rem;
+                padding-left:.05rem;
+                span{
+                    color:#aeaeae;
+                }
+            }
+        }
+        .userbox3{
+            width:100%;
+            height:.40rem;
+            @include flexbox(flex); 
+            @include box-sizing(border-box);
+            padding:0 .2rem;
+            .Tbtn{
+                width:100%;
+                height:100%;
+                border:none;
+                background:#fe961b;
+                font-weight: bold;
+                color:#fff;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+.menubox{
+    @include flexbox(flex);
+    width:100%;
+    height:100%;
+    @include flex-direction(column);
+    .menudiv{border:none;}
+    @include yo-header(
+         $name:a,
+         $bgcolor:#fa635c,
+         $color:#fff,
+         $height:.44rem
+    );
+    .disc{
+        width:100%;
+        height:.3rem;
+        background:#fff;
+        border-bottom:1px solid #ccc; 
+        ul{
+             @include flexbox(flex);
+             width:100%;
+             height:100%;          
+             li{
+                 @include flex(1);
+                 text-align: center;
+                 @include box-sizing(border-box);
+                 padding-top:.05rem;
+                 b{font-weight:normal;font-size:.12rem;color:red;}
+                 i{font-size:.12rem;}
+             }
+        }
+    }
+    section{
+        @include flex(1);
+        width:100%;
+        div{
+            width:100%;
+            height:auto;
+            @include flexbox(flex);
+            @include box-sizing(border-box);
+            @include flex-direction(column);
+            padding:0 .06rem;
+            background:#f0f0f3;
+            .foot {
+                text-align: center;
+                height: .5rem;
+                line-height: .5rem;
+                border-bottom:1px solid #ccc;
+                span{
+                    font-size:.12rem
+                }
+              }
+            ul{
+                width:100%;
+                height:2.03rem;
+                @include flexbox(flex);
+                margin-top:.11rem;
+                background: #fff;
+                li{
+                    &:not(:nth-child(2)){
+                    @include border(1px, #999);
+                    @include flex(1);
+                    @include flexbox(flex);
+                    @include flex-direction(column);
+                    p{
+                        width:100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    b,i,span{
+                        @include flexbox(flex);
+                        @include box-sizing(border-box);
+                        padding-left:.15rem;
+                        width:100%;
+                        margin-top:.06rem;
+                    }
+                    i{color:red;font-weight: bold;}
+                    span{font-size: .12rem;color:#999;}
+                  }
+                  &:nth-child(2) {
+                    width: .1rem;
+                    background:#f0f0f3;
+                  }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

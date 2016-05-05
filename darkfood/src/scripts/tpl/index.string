@@ -1,0 +1,25 @@
+<div class="main">
+	<div class="center-main">
+		
+	</div>
+	<div class="foot">
+		<ul>
+			<li action-type="tap.switch" data-tag="home">
+			   <i class="yo-ico">&#xe620;</i>
+			   <b>首页</b>
+			</li>
+			<li action-type="tap.boss" data-tag="boss">
+				<i class="yo-ico">&#xe68f;</i>
+				<b>店长推荐</b>
+			</li>
+			<li action-type="tap.vip" data-tag="vip">
+				<i class="yo-ico">&#xe66d;</i>
+				<b>会员尊享</b>
+			</li>
+			<li action-type="tap.more" data-tag="more">
+				<i class="yo-ico">&#xe616;</i>
+				<b>更多</b>
+			</li>
+		</ul>
+	</div>
+</div>

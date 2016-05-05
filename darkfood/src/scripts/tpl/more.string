@@ -1,0 +1,53 @@
+<div class="morebox">
+     <div class="yo-header yo-header-a">
+	    <h2 class="title">一键功能</h2>
+	    <span class="regret yo-ico" action-type="tap.back">&#xe604;</span>
+	</div>
+	<div class="small-more">
+		<ul>
+			<li>
+				<i class="yo-ico">&#xe623;</i>
+				<b>关于我们</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe661;</i>
+				<b>用户反馈</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe72f;</i>
+				<b>一键导航</b>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<i class="yo-ico">&#xe624;</i>
+				<b>一封邮件</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe608;</i>
+				<b>一键拨打</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe631;</i>
+				<b>一键分享</b>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<i class="yo-ico">&#xe619;</i>
+				<b>一键扫描</b>
+			</li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<div class="foot-more">
+		<ul>
+			<li action-type="tap.switch">首页</li>
+			<li action-type="tap.boss">店长推荐</li>
+			<li action-type="tap.vip">会员尊享</li>
+			<li>更多</li>
+		</ul>
+	</div>
+
+</div>

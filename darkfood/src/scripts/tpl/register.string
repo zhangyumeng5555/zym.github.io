@@ -1,0 +1,31 @@
+<div class="rgbox">
+	<div class="yo-header yo-header-a user">
+	    <h2 class="title">用户注册</h2>
+	    <span class="regret yo-ico" action-type="tap.back5">&#xe604;</span>
+	    <span class="affirm yo-ico span1" action-type="tap.home">&#xe605;</span>
+	</div>
+	<div class="rgdiv">
+		<p class="rgb"><img src="/darkfood/images/23.gif"/></p>
+		<div class="userbox">
+			<label class="yo-ico lab1">&#xe610;</label><input type="text" class="txt" placeholder="请输入手机号" />
+		    <label class="yo-ico lab2">&#xe611;</label><input type="password" class="psd" placeholder="密码（6-20位字符）" />
+		    <label class="yo-ico lab3">&#xe611;</label><input type="password" class="psd" placeholder="重复密码" />
+		</div>
+		<div class="userbox1">
+			<div class="Luser">
+				<label class="yo-ico lab1">&#xe683;</label><input type="text" class="txt" placeholder="图形验证码" />
+			    <label class="yo-ico lab2">&#xe66e;</label><input type="password" class="psd" placeholder="短信验证码" />
+			</div>
+			<div class="Ruser">
+				<input type="text" class="userTxt" value="6 2 8 7" />
+				<input type="button" value="免费获取"  class="userBtn"/>
+			</div>			
+		</div>
+		<div class="userbox2">
+			<input type="checkbox" class="chk2" /><label>同意《服务协议》 <span>阅读协议</span></label>
+		</div>
+		<div class="userbox3">
+			<input type="button" value="注册" class="Tbtn"/>
+		</div>
+	</div>
+</div>

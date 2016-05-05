@@ -1,0 +1,16 @@
+<div class="successBox">
+	<div class="yo-header yo-header-a">
+	    <h2 class="title">会员中心</h2>
+	    <span class="regret yo-ico" action-type="tap.back6">&#xe604;</span>
+	    <span class="affirm yo-ico span1" action-type="tap.home">&#xe605;</span>
+	</div>
+	<div class="my-pic">
+			<img src="/darkfood/images/11.gif" />
+    </div>
+    <div class="sucBox">
+    	<h2>
+    		恭喜您！
+    	</h2>
+    	<p><img src="/darkfood/images/25.gif"</p>
+    </div>
+</div>

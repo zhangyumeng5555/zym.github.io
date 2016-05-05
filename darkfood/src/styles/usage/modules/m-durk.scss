@@ -1,0 +1,49 @@
+.durkbox{
+    @include flex(1);
+    @include flexbox(flex); 
+    width:100%;
+    @include flex-direction(column);
+    .durktitle{border:none;}
+    @include yo-header(
+         $name:a,
+         $bgcolor:#fa635c,
+         $color:#fff,
+         $height:.44rem
+    );
+    .bg-durk{        
+        @include flex(1);    
+        @include flexbox(flex);
+        @include flex-direction(column);
+        @include box-sizing(border-box);
+        
+        width:100%;
+        overflow: hidden; 
+        .sm-durk{
+            position:absolute;
+            top:.44rem;
+            z-index: -1;
+            width:100%;
+            height:auto;
+            .img-durk{
+              width:100%; 
+              img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .word-durk{
+                width:100%;
+                background:#fff;
+                span{
+                    font-size:15px;
+                    font-weight: bold;
+                    display: block;
+                    height:.36rem;
+                    line-height:.36rem;
+                    }
+                p{font-size:14px;line-height:.29rem;}
+            }
+            
+        }
+    }
+}

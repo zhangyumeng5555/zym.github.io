@@ -1,0 +1,162 @@
+
+.vipbox{
+    width:100%;
+    height:100%;
+    @include flexbox(flex);
+    @include flex-direction(column);
+    @include yo-header(
+         $name:a,
+         $bgcolor:#fa635c,
+         $color:#fff,
+         $height:.44rem
+    );
+    section{
+        @include flex(1);
+        width:100%;
+        @include flexbox(flex);
+        overflow: hidden;
+        .small-vip{
+            width:100%;
+            @include flexbox(flex);
+            @include flex-direction(column);            
+            .vippic{
+                @include flexbox(flex);
+                height:1.72rem;
+                width:100%;              
+                img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .pic-bottom{
+                height:.51rem;
+                width:100%;
+                ul{
+                    width:100%;
+                    height:100%;
+                    @include flexbox(flex);
+                    @include box-sizing(border-box);
+                    padding:.03rem 0 .05rem 0;
+                    li{
+                        @include flex(1);
+                        @include flexbox(flex);
+                        @include flex-direction(column);
+                        text-align: center;
+                        @include align-items(center);
+                        border-right:1px solid #f5f5f5;
+                        i{font-weight: bold;}
+                        b{font-size:.13rem;font-weight: normal;}
+                    }
+                    & li:nth-of-type(2){
+                        border-right:none;
+                        border-left:1px solid #f5f5f5;
+                    }
+                }
+            }
+            .menu-vip{
+                height:.85rem;
+                width:100%;
+                @include flexbox(flex);
+                @include box-sizing(border-box);
+                padding:.05rem 0;
+                background:#e7e7e7;
+                ul{
+                    width:100%;
+                    height:100%;
+                    @include flexbox(flex);
+                    background:#fff;
+                    li{
+                        @include flex(1);
+                        width:100%;
+                        @include flexbox(flex);
+                        @include flex-direction(column);
+                        text-align: center;
+                        @include align-items(center);
+                        i{font-size:.3rem;}
+                        b{font-weight: normal;}                     
+                    }
+                     & li:nth-of-type(1){
+                        i{color:#704378;}
+                    }
+                    & li:nth-of-type(2){
+                        i{color:#e2c34a;}
+                    }
+                    & li:nth-of-type(3){
+                        i{color:#9fc342;}
+                    }
+                }
+            }
+            .look-vip{
+                width:100%;
+                @include flexbox(flex);
+                @include flex-direction(column);
+                @include box-sizing(border-box);
+                padding:0 .18rem;
+                overflow: hidden;
+                ul{
+                    @include flexbox(flex);
+                    @include box-sizing(border-box);
+                    width:100%;
+                    height:.53rem;
+                    border-bottom: 1px solid #e2e2e2;
+                    i{
+                        line-height: .53rem;
+                    }
+                    & li:nth-of-type(1){
+                        @include flex(2); 
+                        i{font-size:.25rem;font-weight: bold;color:#d14cd9;}                       
+                    }
+                    & li:nth-of-type(2){
+                        @include flex(8); 
+                        i{font-size:12px;}                       
+                    }
+                    & li:nth-of-type(3){
+                        @include flex(1);
+                        i{font-size: .2rem;font-weight: bold;}                        
+                    }
+                }
+                & ul:nth-of-type(2){
+                    & li:nth-of-type(1){i{color:#e2c34a}}
+                }
+                & ul:nth-of-type(3){
+                    & li:nth-of-type(1){i{color:#9fc342}}
+                }
+                & ul:nth-of-type(4){
+                    & li:nth-of-type(1){i{color:#369529}}
+                }
+                & ul:nth-of-type(5){
+                    & li:nth-of-type(1){i{color:#2b3bd6}}
+                }
+                & ul:nth-of-type(6){
+                    & li:nth-of-type(1){i{color:#db8d04}}
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+<header>
+	<b><img src="/darkfood/images/24.gif"/></b>
+	<form class="search">
+	   <input type="text" class="txt" placeholder="请输入你想找的产品" />
+	</form>
+	<p action-type="tap.my"><span class="yo-ico">&#xe612;</span><span>我的</span></p>
+</header>
+<section class="slideScroll">
+	<div>
+	    <!--<p class="yo-ico div-p" action-type="tap.yuan">&#xe600;</p>-->
+		<div class="swiper-container pic-swiper" id="fr-swiper">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="/darkfood/images/1.gif" /></div>
+		        <div class="swiper-slide"><img src="/darkfood/images/2.gif" /></div>
+		    </div>
+		</div>
+		<div class="nav1">
+			<ul class="list">
+				<li action-type="tap.food">
+					<i class="yo-ico">&#xe60d;</i>
+					<b>现食不一样</b>
+				</li>
+				<li action-type="tap.switch" data-tag="durk">
+					<i class="yo-ico">&#xe6d5;</i>
+					<b>茶油鸭</b>
+				</li>
+				<li action-type="tap.Mm">
+					<i class="yo-ico">&#xe62e;</i>
+					<b>菜谱盛宴</b>
+				</li>
+				<li action-type="tap.vip1">
+					<i class="yo-ico">&#xe60f;</i>
+					<b>会员尊享</b>
+				</li>
+			</ul>
+		</div>
+		<div class="extend">
+			<p><span>热销推广</span><span action-type="tap.moreMenu">更多></span></p>
+			<div class="imgdiv">
+				<b><img src="/darkfood/images/3.gif"/></b>
+				<b><img src="/darkfood/images/4.gif"/></b>
+				<b><img src="/darkfood/images/5.gif"/></b>
+			</div>
+		</div>
+		<div class="extend extend1">
+			<p><span>所有商品</span><span>筛选></span></p>
+			<ul ms-repeat="homelist">
+				<li><img ms-src="el.img"/></li>
+				<li>
+					<span ms-text="el.p1"></span>
+					<span ms-text="el.p2"></span>
+					<span ms-text="el.p3"></span>
+				</li>
+				<li><b ms-text="el.p4"></b></li>
+			</ul>		
+		</div>
+		<div class="foot1">
+            <span>上拉加载更多...</span>
+        </div>
+		
+		
+		
+   </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

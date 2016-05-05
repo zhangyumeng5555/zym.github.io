@@ -1,0 +1,91 @@
+@import "../../lib/fragment/yo-header.scss";
+
+.bossbox{
+    width:100%;
+    height:100%;
+    @include flexbox(flex);
+    @include flex-direction(column);
+    overflow:hidden;
+    @include yo-header(
+         $name:a,
+         $bgcolor:#fa635c,
+         $color:#fff,
+         $height:.44rem
+    )
+    section{
+        @include flex(1);
+        width:100%;
+        @include flexbox(flex);
+        @include flex-direction(column);
+        @include box-sizing(border-box);
+        padding:.09rem 0 .1rem 0;
+        .smallbox{
+            width:100%;
+//          height:100%;
+//          @include flexbox(flex);
+//          @include flex-direction(column);
+            @include prefix(column-count, 2);
+            @include prefix(column-gap, 0rem);
+            
+            dl{
+//              width:1.12rem;
+                @include flexbox(flex);
+                @include flex-direction(column);
+                @include box-sizing(border-box);
+                padding:.05rem .05rem .05rem .06rem;
+                border:1px solid #ccc;
+                @include prefix(column-break-inside, avoid);
+                box-shadow: .04rem .05rem  .03rem #888;
+                margin:0 0.05rem .1rem .08rem;
+                dt{
+//                  width:1.01rem;
+                    img{
+                        width:100%;
+                    }
+                }
+                dd{
+                    @include flexbox(flex);
+                    @include box-sizing(border-box);
+                    padding:.14rem 0 .1rem 0;
+                    span{
+                        @include flex(1);
+                         display: inline-block;
+                    }
+                    & span:nth-of-type(1){
+                        height:.20rem;
+                        color:#b4b4b4;
+                        background:#000;
+                        font-size:.12rem;
+                        border-radius: .08rem;
+                        text-align: center;
+                        line-height: .20rem;
+                    }
+                    & span:nth-of-type(2){
+                        text-align: end;
+                        color:#c93d23;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

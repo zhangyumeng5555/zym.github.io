@@ -1,0 +1,67 @@
+<div class="menubox">
+	<div class="yo-header yo-header-a menudiv">
+	    <h2 class="title">商品</h2>
+	    <span class="regret yo-ico" action-type="tap.back1">&#xe604;</span>
+	    <span class="affirm yo-ico span1" action-type="tap.home">&#xe606;</span>
+	</div>
+	<div class="disc">
+		<ul>
+			<li>
+				<b>综合</b>
+				<i class="yo-ico">&#xe61f;</i>
+			</li>
+			<li>
+				<b>销量</b>
+				<i class="yo-ico">&#xe61f;</i>
+			</li>
+			<li>
+				<b>人气</b>
+				<i class="yo-ico">&#xe61f;</i>
+			</li>
+			<li>
+				<b>价格</b>
+				<i class="yo-ico">&#xe61f;</i>
+			</li>
+		</ul>
+	</div>
+	<section id="moreScroll">
+		<div>
+			<ul class="menuList" ms-repeat="menulist">
+				<li>
+					<p><img ms-src="el[0].img"/></p>
+					<b ms-text="el[0].p1"></b>
+					<i ms-text="el[0].p2"></i>
+					<span ms-text="el[0].p3"></span>
+				</li>
+				<li></li>
+				<li>
+					<p><img ms-src="el[1].img"/></p>
+					<b ms-text="el[1].p1"></b>
+					<i ms-text="el[1].p2"></i>
+					<span ms-text="el[1].p3"></span>
+				</li>
+			</ul>
+			<div class="foot">
+                <span>上拉加载更多...</span>
+            </div>
+			
+		</div>
+	</section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

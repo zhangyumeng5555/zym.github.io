@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+@font-face {font-family: 'yofont';
+    
+    src: url("/darkfood/images/iconfont.woff") format('woff'), 
+    url("/darkfood/images/iconfont.ttf") format('truetype'); /* chrome、firefox */
+}
+@font-face {font-family: 'yofont';
+    
+    src: url("/darkfood/images/iconfont1.woff") format('woff'), 
+    url("/darkfood/images/iconfont1.ttf") format('truetype'); /* chrome、firefox */
+}
+
+.main{
+    @include flexbox(flex);
+    @include flex-direction(column);
+    height:100%;
+    
+    .center-main{
+        @include flex(1);      
+        width:100%;
+        @include flexbox(flex);
+        position: relative;
+    }
+    .foot{
+        background:#f9625b;
+        height:.57rem;
+        width:100%;
+        position:relative;
+        z-index: 999;
+        >ul{
+            @include flexbox(flex);
+            width:100%;
+            li{
+                @include flex(1);
+                @include flex-direction(column);
+                text-align: center;
+                @include align-items(center);
+                i,b{
+                    display: block;
+                    font-size:.14rem;
+                    font-weight:normal;
+                    font-style:normal;
+                    color:#fff;
+                }
+                i{
+                    font-size:.2rem;
+                }
+            }
+        }
+        
+        
+
+      
+    }
+}
+
+
+
+
